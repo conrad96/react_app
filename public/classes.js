@@ -1,8 +1,19 @@
 class Car {
-    alertBrand() {
-        console.log('Benz')
+    constructor() {
+        this.wheels = 4;
+        this.type = 'Hatchback';
+    }
+}
+
+class Ford extends Car {
+    constructor() {
+        super()
+        this.windows = 4;
     }
 }
 
 const car  = new Car();
-car.alertBrand()
+const ford = new Ford();
+
+console.log(ford.type)
+console.log(ford.wheels)
