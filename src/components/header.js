@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import '../css/styles.css'
 class Header extends Component{
 
     render(){                
@@ -7,7 +7,9 @@ class Header extends Component{
         return (
             <header>
                 <div className="logo">Logo</div>
-                <input  type="text" />
+                <center>
+                    <input  type="text" />
+                </center>
             </header>
         );
     }
