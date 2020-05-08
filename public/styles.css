@@ -2,13 +2,13 @@ body {
     margin: 0 
 }
 header {
-    background: '#03af94';
+    background: #03af94;
 }
 
 .logo {
-    color: '#fff';
-    font-family: 'Anton';
-    text-align: 'center';
+    color: #fff;
+    font-family: Anton;
+    text-align: center;
     font-size: 40px;
 }
 
