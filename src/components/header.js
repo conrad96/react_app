@@ -6,7 +6,7 @@ class Header extends Component{
 
         return (
             <header>
-                <div className="logo">Logo</div>
+                <div className="logo" onClick={ ()=>{ console.log('Clicked here'); }} >Logo</div>
                 <center>
                     <input  type="text" />
                 </center>
