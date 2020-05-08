@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+//Add components here 
+import Header from './components/header'
+
 const App = () => {
   return (
-    <div className="example">
-      <h1>Hello conrad.</h1>
+    <div className="header">
+      <Header />
     </div>
   )
 }
