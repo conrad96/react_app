@@ -2,10 +2,11 @@ import React, {Component} from 'react'
 
 class Header extends Component{
 
-    render(){
+    render(){                
+
         return (
             <header>
-                <div>Logo</div>
+                <div className="logo">Logo</div>
                 <input  type="text" />
             </header>
         );
