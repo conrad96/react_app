@@ -19,7 +19,7 @@ class Header extends Component{
             <header>
                 <div className="logo">Logo</div>
                 <center>
-                    <input  type="text" onChange={ (e)=> {this.changeEvent(e)} } />
+                    <input  type="text" onChange={this.changeEvent.bind(this)} />
                 </center>
             </header>
         );
