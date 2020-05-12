@@ -6,7 +6,7 @@ class Header extends Component{
         keywords: 'Hello'
     }
 
-    changeEvent (event) {
+    changeEvent  = (event) => {
        // console.log(event.target.value);
        this.setState({
            keywords: event.target.value
@@ -19,7 +19,7 @@ class Header extends Component{
             <header>
                 <div className="logo">Logo</div>
                 <center>
-                    <input  type="text" onChange={this.changeEvent.bind(this)} />
+                    <input  type="text" onChange={this.changeEvent} />
                 </center>
             </header>
         );
