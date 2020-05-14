@@ -19,15 +19,13 @@ class Header extends Component{
     }
 
     render(){                
-        console.log(this.state.keywords);
+        
         return (
             <header>
                 <div className="logo">Logo</div>
                 <center>
                     <input  type="text" onChange={this.changeEvent} />
-                </center>
-                <div>{this.state.title}</div>
-                <div>{this.state.keywords}</div>
+                </center>                
             </header>
         );
     }
