@@ -7,12 +7,13 @@ const NewsList = (props) => {
     const items = props.news.map((item)=> {
 
         return (
-            <NewsListItem  item={item}/>
+            <NewsListItem  item={item}  key={item.id} />
         )
     });
 
     return (
     <div>
+        {props.children}
         {items}
     </div>
     )
