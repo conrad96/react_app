@@ -1,9 +1,14 @@
 import React, {Component} from 'react'
 import '../css/styles.css'
-class Header extends Component{
+class Header extends Component{    
 
-    state = {
-        keywords: 'Hello'
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            title: 'Keywords title: ',
+            keywords: 'Hello conrad'
+        }
     }
 
     changeEvent  = (event) => {
@@ -21,6 +26,8 @@ class Header extends Component{
                 <center>
                     <input  type="text" onChange={this.changeEvent} />
                 </center>
+                <div>{this.state.title}</div>
+                <div>{this.state.keywords}</div>
             </header>
         );
     }
