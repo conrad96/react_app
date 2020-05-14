@@ -8,10 +8,14 @@ import NewsList from './components/news_list';
 
 const App = () => {  
 
+  state = {
+    news: JSON 
+  }
+
   return (
     <div className="header">
       <Header />
-      <NewsList />
+      <NewsList news={this.state.news}/>
     </div>
   )
 }
