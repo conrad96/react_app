@@ -1,9 +1,21 @@
 import React from 'react';
 
 const NewsList = (props) => {
-    console.log(props.news);
+    
+    //use array to iterate items in JSON object
+    const items = props.news.map((item)=> {
+
+        return (
+            <div>
+                <h3>{item.title}</h3>
+            </div>
+        )
+    });
+
     return (
-        <div>News List</div>
+    <div>
+        items
+    </div>
     )
 }
 
