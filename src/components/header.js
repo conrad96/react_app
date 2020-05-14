@@ -13,10 +13,14 @@ class Header extends Component{
        })
     }
 
-    render(){                
+    render(){        
+        
+        const style = {
+            background: '#ff4545'
+        }
         
         return (
-            <header>
+            <header style={style} >
                 <div className="logo">Logo</div>
                 <center>
                     <input  type="text" onChange={this.changeEvent} />
