@@ -3,12 +3,7 @@ import '../css/styles.css'
 class Header extends Component{    
 
     constructor(props) {
-        super(props);
-
-        this.state = {
-            title: 'Keywords title: ',
-            keywords: 'Hello conrad'
-        }
+        super(props);       
     }
 
     changeEvent  = (event) => {
