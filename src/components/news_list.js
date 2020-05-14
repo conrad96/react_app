@@ -8,13 +8,16 @@ const NewsList = (props) => {
         return (
             <div>
                 <h3>{item.title}</h3>
+                <div>
+                    {item.feed}
+                </div>
             </div>
         )
     });
 
     return (
     <div>
-        items
+        {items}
     </div>
     )
 }
