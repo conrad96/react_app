@@ -16,7 +16,7 @@ class Header extends Component{
     render(){        
         
         const style = {
-            background: '#ff4545'
+            background: '#aed6f9'
         }
         
         return (
